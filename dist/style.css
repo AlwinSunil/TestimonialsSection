@@ -371,7 +371,7 @@ a {
     margin-bottom: auto;
   }
   .container {
-    padding: 6vh 3vh 2.75vh 3vh;
+    padding: 6vh 3vh 2vh 3vh;
     background-image: url("/app/img/bg-pattern-top-mobile.svg");
     background-size: 100vw;
     background-repeat: no-repeat;
