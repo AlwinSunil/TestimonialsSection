@@ -7,15 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" type="image/jpg" href="app/img/favicon.png">
     <title>Testimonial Section</title>
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <!-- Style -->
     <link href="dist/style.css" rel="stylesheet">
+    <!-- Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- JS -->
+    <script src="app/js/script.js"></script>
 </head>
 
 <body>
-    <div class="warning-banner" id="warning-banner">
-        <p id="warning-banner-p">This website is just a mockup, these services DOESN'T EXIST !!</p>
+    <div class="warning-banner" id="warning-banner" data-aos="zoom-out-down" data-aos-duration="500">
+        <p id="warning-banner-p">This website is just a mockup, these
+            services DOESN'T EXIST !!</p>
     </div>
     <div class="container">
         <div class="main-content">
@@ -24,7 +32,7 @@
                 are saying about our services.</p>
         </div>
         <div class="star-rating">
-            <div class="rating">
+            <div class="rating rating-one">
                 <div class="star-rating-img">
                     <img src="app/img/icon-star.svg" alt="star">
                     <img src="app/img/icon-star.svg" alt="star">
@@ -34,7 +42,7 @@
                 </div>
                 <p class="rating-content">Rated 5 Stars in Reviews</p>
             </div>
-            <div class="rating">
+            <div class="rating rating-two">
                 <div class="star-rating-img">
                     <img src="app/img/icon-star.svg" alt="star">
                     <img src="app/img/icon-star.svg" alt="star">
@@ -44,7 +52,7 @@
                 </div>
                 <p class="rating-content">Rated 5 Stars in Report Guru </p>
             </div>
-            <div class="rating">
+            <div class="rating rating-three">
                 <div class="star-rating-img">
                     <img src="app/img/icon-star.svg" alt="star">
                     <img src="app/img/icon-star.svg" alt="star">
@@ -56,7 +64,7 @@
             </div>
         </div>
         <div class="testimonial">
-            <div class="testimonial-item">
+            <div class="testimonial-item testimonial-item-one">
                 <div class="profile">
                     <div class="profile-img">
                         <img src="app/img/image-colton.jpg" alt="Colton">
@@ -72,7 +80,7 @@
                         the original order, but we also received it in time. Excellent!" </p>
                 </div>
             </div>
-            <div class="testimonial-item">
+            <div class="testimonial-item  testimonial-item-two">
                 <div class="profile">
                     <div class="profile-img">
                         <img src="app/img/image-irene.jpg" alt="Irene">
@@ -87,7 +95,7 @@
                         simplicity of the purchase and the speed of delivery." </p>
                 </div>
             </div>
-            <div class="testimonial-item">
+            <div class="testimonial-item  testimonial-item-three">
                 <div class="profile">
                     <div class="profile-img">
                         <img src="app/img/image-anne.jpg" alt="Anne">
@@ -106,9 +114,12 @@
     </div>
 
     <p class="watermark"><strong>Created by </strong><a target="_blank" rel="noreferrer"
-        href="https://instagram.com/mr_alwin_">Alwin Sunil</a></p>
+            href="https://instagram.com/mr_alwin_">Alwin Sunil</a></p>
 
-    <script src="app/js/script.js"></script>
+    <div class="loader-wrapper" id="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
 </body>
 
 </html>
